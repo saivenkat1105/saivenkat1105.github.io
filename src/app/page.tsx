@@ -663,7 +663,7 @@ export default function Home() {
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-[1fr_minmax(280px,340px)] gap-12 items-start">
-            <div className="space-y-6 text-muted-foreground leading-relaxed text-lg">
+            <div className="space-y-6 text-muted-foreground leading-relaxed text-sm">
               <p>
                 Hey there! Welcome to <span className="text-primary font-semibold">my space</span>. I really want to tell you that this is not your
                 regular portfolio page that you haven't seen already but unfortunately it is.
