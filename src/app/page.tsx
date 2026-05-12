@@ -243,7 +243,7 @@ export default function Home() {
               <p className="text-primary font-semibold text-base">Highlights</p>
               <ul className="space-y-2.5">
                 {[
-                  { text: "Developed industry's **first energy based thermal controller** @ JLR - improving range by 10%" },
+                  { text: "Developed industry's **first energy based thermal controller** @ JLR - improving range by 10+ miles in cold ambients" },
                   { text: "**Patent** - GB202402518D0 - a personalized thermal comfort controller" },
                   { text: "Top 100 teams internationally in **AI for Industry Challenge 2026** by Intrinsic" },
                   { text: "Multiple robotics projects and competitions - won some, lost some but learnt and enjoyed from all of them." },
