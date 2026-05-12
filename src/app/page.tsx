@@ -21,9 +21,9 @@ const DOMAIN_TAGS = ["RL", "Controls", "ML", "Robotics", "Modelling", "Mechanica
 const TECH_STACK_TAGS = ["Python/C++", "MATLAB", "ROS2", "Gazebo", "MuJoCo", "PyTorch", "Fusion 360"];
 
 const skillsMap = {
-  "Languages": ["Python", "C++"],
-  "Software/ Tools": ["MATLAB", "Simulink", "Gazebo", "MuJoCo", "Autodesk Fusion 360"],
   "Frameworks": ["ROS2 (Kilted Kaiju)", "PyTorch", "Scikit-learn", "stable-baselines3", "Gymnasium", "LeRobot"],
+  "Software/ Tools": ["MATLAB", "Simulink", "Gazebo", "MuJoCo", "Fusion 360"],
+  "Languages": ["Python", "C++"],
   "Skillset": ["Reinforcement Learning", "Controls", "Machine Learning", "Modelling", "Robotics Simulation", "FEA", "Mechanical Design", "3D Printing"]
 };
 
@@ -100,7 +100,9 @@ const LOCAL_ICONS: Record<string, string> = {
   "PyTorch": "png",
   "Scikit-learn": "png",
   "stable-baselines3": "png",
-  "Gymnasium": "png"
+  "Gymnasium": "png",
+  "Python": "svg",
+  "C++": "svg"
 };
 
 function getIconForSkill(skill: string) {
@@ -223,13 +225,14 @@ export default function Home() {
               </p>
               <p>
                 Making inanimate objects think and move aka <span className="text-primary font-semibold">Robotics</span> fascinates me.
-                Specialized in <span className="text-primary font-semibold">RL, Controls, ML</span>. Experience in building robots from scratch both in simulation and real.
+                Specialized in <span className="text-primary font-semibold">RL, Controls, ML</span> with current focus on <span className="text-primary font-semibold">Robot Learning</span>.
+                Experience in building robots from scratch both in simulation and real.
 
 
                 Excited about <span className="text-primary font-semibold">Physical AI </span> and looking to contribute in this space.
               </p>
               <p>
-                Love solving hard problems. High agency. Always curious. I thrive under pressure.
+                Love solving hard problems. High agency. Always curious. I thrive under pressure. I prefer failing fast and iterating over planning the perfect solution.
               </p>
               <p>My free time is for ♟️, 🏸,  🏖️, 🏔️, 🍜, 😴. Also 📚 and 🎬. Sometimes 👨‍🍳.
                 Always up to learn something new.
@@ -242,8 +245,8 @@ export default function Home() {
                 {[
                   { text: "Developed industry's **first energy based thermal controller** @ JLR - improving range by 10%" },
                   { text: "**Patent** - GB202402518D0 - a personalized thermal comfort controller" },
-                  { text: "Multiple robotics projects and competitions - won some, lost some but enjoyed and learnt from all of them." },
-
+                  { text: "Top 100 teams internationally in **AI for Industry Challenge 2026** by Intrinsic" },
+                  { text: "Multiple robotics projects and competitions - won some, lost some but learnt and enjoyed from all of them." },
                   { text: "M.Tech and B.Tech(Hons.) from IIT Madras with a 9.14 GPA" },
                 ].map((item, i) => (
                   <motion.li
@@ -674,7 +677,7 @@ export default function Home() {
                 in the automobile industry which was equally exciting, but a small part of me always stayed with robotics.
               </p>
               <p>
-                I am a fan of automation. I  will spend 2 hours automating a task that can be done 1 hour if it means
+                I am a fan of automation. I will spend 2 hours automating a task that can be done 1 hour if it means
                 I dont have to do something mundane. I am always full of ideas and <span className="text-primary font-semibold">vibe coding</span> has given  me a new lease of life
                 to build everything that I can think of. Most of them are useless but I am proud of every single vib-coded project I have worked on.
                 I am always up for discussing anything under the Sun, be it politics, technology, my chess ELO, how I think the world is a simulation,
