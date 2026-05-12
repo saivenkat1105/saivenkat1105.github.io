@@ -674,7 +674,7 @@ export default function Home() {
                 in the automobile industry which was equally exciting, but a small part of me always stayed with robotics.
               </p>
               <p>
-                I am a fan of automation. I will spend 2 hours automating a task that can be done 1 hour if it means
+                I am a fan of automation. I  will spend 2 hours automating a task that can be done 1 hour if it means
                 I dont have to do something mundane. I am always full of ideas and <span className="text-primary font-semibold">vibe coding</span> has given  me a new lease of life
                 to build everything that I can think of. Most of them are useless but I am proud of every single vib-coded project I have worked on.
                 I am always up for discussing anything under the Sun, be it politics, technology, my chess ELO, how I think the world is a simulation,
