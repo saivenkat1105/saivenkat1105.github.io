@@ -333,7 +333,6 @@ export function Cartpole() {
     canvas.addEventListener("pointerdown", handlePointerDown);
 
     return () => {
-      clearTimeout(startTimeout);
       cancelAnimationFrame(animationFrameId);
       canvas.removeEventListener("pointerdown", handlePointerDown);
     };
